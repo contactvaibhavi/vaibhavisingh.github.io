@@ -1,29 +1,302 @@
-<html>
+<!DOCTYPE HTML>
+<html lang="en">
   <head>
-	  <!-- Google tag (gtag.js) -->
-		<script async src="https://www.googletagmanager.com/gtag/js?id=G-D202Z93LJ3"></script>
-		<script>
-			window.dataLayer = window.dataLayer || [];
-			function gtag(){dataLayer.push(arguments);}
-			gtag('js', new Date());
-			
-			gtag('config', 'G-D202Z93LJ3');
-		</script>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     <title>Vaibhavi Singh</title>
-	<style>
-        body {
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            min-height: 100vh;
-            margin: 0;
-            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Helvetica Neue', Arial, sans-serif;
-        }
+    <meta name="author" content="Vaibhavi Singh">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+      body {
+        font-family: 'Lato', Verdana, Helvetica, sans-serif;
+        font-size: 14px;
+        background-color: #fdfdfd;
+        color: #333;
+        margin: 0;
+        padding: 0;
+      }
+      a {
+        color: #1772d0;
+        text-decoration: none;
+      }
+      a:focus, a:hover {
+        color: #f09228;
+        text-decoration: underline;
+      }
+      .name {
+        font-size: 32px;
+        font-weight: bold;
+      }
+      .papertitle {
+        font-weight: 700;
+        font-size: 14px;
+      }
+      h2 {
+        font-size: 20px;
+        font-weight: 400;
+      }
+      strong {
+        font-weight: 700;
+      }
+      .highlight {
+        background-color: #ffffd0;
+      }
     </style>
   </head>
+
   <body>
-	  <p class="message">
-    Website under construction. Please check back soon!
-		  </p>
+    <table style="width:100%;max-width:800px;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
+      <tbody>
+        <tr style="padding:0px">
+          <td style="padding:0px">
+            
+            <!-- Introduction Section -->
+            <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
+              <tbody>
+                <tr style="padding:0px">
+                  <td style="padding:2.5%;width:63%;vertical-align:middle">
+                    <p class="name" style="text-align: center;">
+                      Vaibhavi Singh
+                    </p>
+                    <p>
+                      I'm an MS student in Computer Science at <a href="https://cs.nyu.edu/">NYU Courant</a>, specializing in machine learning with a focus on multimodal models and representation learning.
+                    </p>
+                    <p>
+                      I'm currently conducting research on benchmarking deterministic reasoning in multimodal LLMs with <a href="https://www.sainingxie.com/">Prof. Saining Xie</a>, and investigating self-supervised learning in low-resource regimes with collaborators from NYU Langone and Courant.
+                    </p>
+                    <p>
+                      Previously, I worked as an ML Engineer building clinical risk prediction models, and spent several years at <a href="https://www.adobe.com/">Adobe</a> and <a href="https://www.salesforce.com/">Salesforce</a> optimizing ML systems and graphics pipelines for products used by millions.
+                    </p>
+                    <p style="text-align:center">
+                      <a href="mailto:contactvaibhavi@gmail.com">Email</a> &nbsp;/&nbsp;
+                      <a href="https://linkedin.com/in/contactvaibhavi">LinkedIn</a> &nbsp;/&nbsp;
+                      <a href="https://github.com/contactvaibhavi">GitHub</a>
+                    </p>
+                  </td>
+                  <td style="padding:2.5%;width:37%;max-width:37%">
+                    <!-- You can add a professional photo here -->
+                    <div style="width:100%;height:200px;background:#e0e0e0;border-radius:50%;display:flex;align-items:center;justify-content:center;">
+                      Photo
+                    </div>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+
+            <!-- Research Section -->
+            <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
+              <tbody>
+                <tr>
+                  <td style="padding:16px;width:100%;vertical-align:middle">
+                    <h2>Research</h2>
+                    <p>
+                      I'm interested in multimodal models, representation learning, and optimization for deep learning. My current work focuses on evaluating reasoning capabilities in vision-language models and efficient self-supervised learning under resource constraints.
+                    </p>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+
+            <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
+              <tbody>
+
+                <!-- Research Project 1 -->
+                <tr bgcolor="#ffffd0">
+                  <td style="padding:16px;width:20%;vertical-align:middle">
+                    <img src="images/multimodal_reasoning.jpg" alt="multimodal" width="160" style="border-style: none">
+                  </td>
+                  <td style="padding:8px;width:80%;vertical-align:middle">
+                    <span class="papertitle">Benchmarking Deterministic Reasoning in Multimodal LLMs</span>
+                    <br>
+                    <strong>Vaibhavi Singh</strong>, Saining Xie
+                    <br>
+                    <em>In preparation</em>, targeting NeurIPS / ICLR
+                    <br>
+                    <p>
+                      Developing a novel benchmark to evaluate multimodal LLMs on tasks requiring deterministic outputs. Designed programmatic evaluation framework with automated ground-truth generation and performed systematic failure analysis on SOTA models (e.g., Gemini 3.0 Pro). Preliminary results suggest pure end-to-end models struggle with deterministic reasoning, motivating hybrid neuro-symbolic architectures.
+                    </p>
+                  </td>
+                </tr>
+
+                <!-- Research Project 2 -->
+                <tr>
+                  <td style="padding:16px;width:20%;vertical-align:middle">
+                    <img src="images/ssl_lowres.jpg" alt="ssl" width="160" style="border-style: none">
+                  </td>
+                  <td style="padding:8px;width:80%;vertical-align:middle">
+                    <span class="papertitle">Self-Supervised Vision in Low-Resource Regimes</span>
+                    <br>
+                    <strong>Vaibhavi Singh</strong>, collaborators from NYU Langone & Courant
+                    <br>
+                    <em>In preparation</em>, targeting ICLR workshops
+                    <br>
+                    <p>
+                      Investigating self-supervised representation learning under severe data, resolution (96×96), and compute constraints by training DINOv1 from scratch. Achieved competitive performance on CUB-200, miniImageNet, and SUN397. Identified domain-aligned data and dense tokenization as dominant performance drivers, and demonstrated evaluation methodology as an independent optimization axis through a tuned probing pipeline.
+                    </p>
+                  </td>
+                </tr>
+
+                <!-- Past Research -->
+                <tr>
+                  <td style="padding:16px;width:20%;vertical-align:middle">
+                    <img src="images/adversarial.jpg" alt="adversarial" width="160" style="border-style: none">
+                  </td>
+                  <td style="padding:8px;width:80%;vertical-align:middle">
+                    <span class="papertitle">Adversarial Robustness in Vision Models</span>
+                    <br>
+                    <strong>Vaibhavi Singh</strong>
+                    <br>
+                    <em>Independent Study</em>, 2019
+                    <br>
+                    <p>
+                      Conducted empirical study comparing adversarial defense methods across white-box and black-box attacks in CNN-based vision models, analyzing robustness trends and their extensibility to multimodal architectures.
+                    </p>
+                  </td>
+                </tr>
+
+              </tbody>
+            </table>
+
+            <!-- Experience Section -->
+            <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
+              <tbody>
+                <tr>
+                  <td style="padding:16px;width:100%;vertical-align:middle">
+                    <h2>Experience</h2>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+
+            <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
+              <tbody>
+
+                <tr>
+                  <td style="padding:8px;width:80%;vertical-align:middle">
+                    <strong>Machine Learning Engineer</strong>
+                    <br>
+                    Healthcare AI Startup, Delhi
+                    <br>
+                    <em>2024 – 2025</em>
+                    <p>
+                      Built clinical risk prediction models (XGBoost, TCN) achieving 0.87 F1-score through feature engineering, SMOTE for class imbalance, and hyperparameter optimization. Processed sparse EMR data for early-stage healthcare applications.
+                    </p>
+                  </td>
+                </tr>
+
+                <tr>
+                  <td style="padding:8px;width:80%;vertical-align:middle">
+                    <strong>Software Engineer II</strong>
+                    <br>
+                    Salesforce, Bangalore
+                    <br>
+                    <em>2023 – 2024</em>
+                    <p>
+                      Optimized petabyte-scale data ingestion pipelines, reducing latency by 30% for Einstein AI and real-time analytics. Scaled multi-tenant Kubernetes infrastructure on AWS for 200+ microservices.
+                    </p>
+                  </td>
+                </tr>
+
+                <tr>
+                  <td style="padding:8px;width:80%;vertical-align:middle">
+                    <strong>ML Systems Engineer (MTS II)</strong>
+                    <br>
+                    Adobe, Noida
+                    <br>
+                    <em>2021 – 2023</em>
+                    <p>
+                      Implemented heterogeneous compute (CPU/GPU) optimizations in graphics libraries for Photoshop Neural Filters, enabling real-time HDR style transfer on Intel & Apple Silicon for 20M+ users. Developed graphics shaders for the Vulkan rendering backend for Substance 3D in Color Engine, enabling high-fidelity 3D workflows on Linux & macOS. Implemented multithreaded parallel processing in media libraries powering Premiere Pro & led performance profiling efforts to enforce strict latency SLAs across the Creative Cloud suite.
+                    </p>
+                  </td>
+                </tr>
+
+                <tr>
+                  <td style="padding:8px;width:80%;vertical-align:middle">
+                    <strong>Cloud Infrastructure Engineer (MTS I)</strong>
+                    <br>
+                    Adobe, Noida
+                    <br>
+                    <em>2019 – 2021</em>
+                    <p>
+                      Optimized high-throughput Java microservices on Adobe Cloud Platform, reducing build times by 25% and infrastructure costs by 12% for 10M+ DAU through performance profiling and resource tuning.
+                    </p>
+                  </td>
+                </tr>
+
+              </tbody>
+            </table>
+
+            <!-- Education Section -->
+            <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
+              <tbody>
+                <tr>
+                  <td style="padding:16px;width:100%;vertical-align:middle">
+                    <h2>Education</h2>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+
+            <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
+              <tbody>
+
+                <tr>
+                  <td style="padding:8px;width:80%;vertical-align:middle">
+                    <strong>M.S. in Computer Science (Machine Learning)</strong>
+                    <br>
+                    New York University, Courant Institute
+                    <br>
+                    <em>Aug 2025 – May 2027 (expected)</em>
+                    <br>
+                    GPA: 3.89/4.00
+                    <p>
+                      Research focus: multimodal models, representation learning & optimization for deep learning
+                      <br>
+                      Coursework (Grade A): Deep Learning (Yann LeCun), Computer Vision (Saining Xie)
+                      <br>
+                      Current: NLP (Eunsol Choi), Convex Optimization (Michael Overton)
+                    </p>
+                  </td>
+                </tr>
+
+                <tr>
+                  <td style="padding:8px;width:80%;vertical-align:middle">
+                    <strong>B.E. Computer Engineering (Hons), First Class with Distinction</strong>
+                    <br>
+                    Netaji Subhas Institute of Technology, University of Delhi
+                    <br>
+                    <em>Aug 2015 – May 2019</em>
+                    <p>
+                      Top 10% of department (200 students)
+                      <br>
+                      National engineering entrance exam: 98.42 percentile among 1.3M candidates
+                      <br>
+                      Scholarship by EPFL & Swiss Government for Scala Days 2019
+                      <br>
+                      GSoC Mentor for Anita Borg Organisation, 2018
+                    </p>
+                  </td>
+                </tr>
+
+              </tbody>
+            </table>
+
+            <!-- Footer -->
+            <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
+              <tbody>
+                <tr>
+                  <td style="padding:0px">
+                    <br>
+                    <p style="text-align:right;font-size:small;">
+                      Website template from <a href="https://jonbarron.info/">Jon Barron</a>
+                    </p>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+
+          </td>
+        </tr>
+      </tbody>
+    </table>
   </body>
 </html>
