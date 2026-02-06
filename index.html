@@ -54,6 +54,57 @@
       .skill-category {
         margin-bottom: 8px;
       }
+      
+      .project-btn {
+        display: inline-block;
+        padding: 6px 16px;
+        margin: 4px 4px 4px 0;
+        border: 1px solid #ddd;
+        border-radius: 4px;
+        background-color: #fff;
+        color: #333;
+        text-decoration: none;
+        font-size: 13px;
+        transition: all 0.2s ease;
+        }
+      
+      .project-btn:hover {
+        background-color: #f5f5f5;
+        border-color: #1772d0;
+        color: #1772d0;
+        text-decoration: none;
+      }
+
+      .project-container {
+        display: flex;
+        gap: 20px;
+        align-items: flex-start;
+        flex-direction: row;
+        flex-wrap: nowrap; 
+      }
+
+      .project-image {
+        flex-shrink: 0;
+        width: 200px;
+      }
+
+      .project-image img {
+        width: 100%;
+        border-radius: 4px;
+        border: 1px solid #ddd;
+      }
+
+      .project-content {
+        flex: 1;
+      }
+
+      .project-keywords {
+        color: #666;
+        font-size: 13px;
+        margin-top: 4px;
+        margin-bottom: 8px;
+      }
+
     </style>
   </head>
 
@@ -110,24 +161,49 @@
 
             <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
               <tbody>
-
                 <!-- Research Project 1 -->
                 <tr bgcolor="#ffffd0">
                   <td style="padding:16px;width:100%;vertical-align:middle">
-                    <span class="papertitle">Dissecting Reasoning Failures in Multimodal Chain-of-Thought</span>
-                    <p>
-                      Engineered the evaluation harness to audit the faithfulness of reasoning traces in Vision-Language Models. Developed a granular failure taxonomy to disentangle perception hallucinations from deductive logic errors, analyzing how models hallucinate reasoning paths even on correct answers.
-                    </p>
+                    <div class="project-container">
+                     <div class="project-image">
+                       <img src="assets/reasoning_project.png" alt="Reasoning Failures Project">
+                     </div>
+
+                     <div class="project-content">
+                       <span class="papertitle">Dissecting Reasoning Failures in Multimodal Chain-of-Thought</span>
+                       <p>
+                         Engineered the evaluation harness to audit the faithfulness of reasoning traces in Vision-Language Models. Developed a granular failure taxonomy to disentangle perception hallucinations from deductive logic errors, analyzing how models hallucinate reasoning paths even on correct answers.
+                       </p>
+                       <div class="project-keywords">Chain-of-Thought Reasoning, Evaluation Frameworks, Vision-Language Models</div>
+                      
+                       <a href="https://drive.google.com/file/d/1M9bluklcgbuiLu3-IjFiSJYNhyiJgYkx/view?usp=sharing" class="project-btn">Paper</a>
+                       <a href="https://github.com/contactvaibhavi/Cogni-Reasoning" class="project-btn">Code</a>
+                       <a href="https://docs.google.com/presentation/d/160EzrEZKZzGXa5641VY2UyGdO_MaN-6YpDFKl9feV0Y/edit?usp=sharing" class="project-btn">Slides</a>
+                     </div>
+                    </div>
                   </td>
                 </tr>
 
                 <!-- Research Project 2 -->
                 <tr>
                   <td style="padding:16px;width:100%;vertical-align:middle">
-                    <span class="papertitle">Scaling Laws for Representation Learning</span>
-                    <p>
-                      Conducted an empirical analysis on the limits of self-supervised learning in low-resource regimes. Analyzed the trade-off between tokenization density and dataset scale, finding that domain-aligned tokenization serves as a stronger supervision signal than sheer data volume for specialized distributions.
-                    </p>
+                    <div class="project-container">
+                    <div class="project-image">
+                      <img src="assets/scaling_laws_project.png" alt="Scaling Laws Project">
+                    </div>
+                    
+                    <div class="project-content">
+                      <span class="papertitle">Scaling Laws for Representation Learning</span>
+                      <div class="project-keywords">Scaling Laws, Data-Efficient Learning, Foundation Models, Tokenization</div>
+                      <p>
+                        Conducted an empirical analysis on the limits of self-supervised learning in low-resource regimes. Analyzed the trade-off between tokenization density and dataset scale, finding that domain-aligned tokenization serves as a stronger supervision signal than sheer data volume for specialized distributions.
+                      </p>
+                     
+                      <a href="https://docs.google.com/presentation/d/1AQx95qqQVj47TpJELMS9RmI_IXx-IZ6bmerbZid74nY/edit?usp=sharing" class="project-btn">Paper</a>
+                      <!--a href="https://github.com/contactvaibhavi/Cogni-Reasoning" class="project-btn">Code</a-->
+                      <a href="https://docs.google.com/presentation/d/1AQx95qqQVj47TpJELMS9RmI_IXx-IZ6bmerbZid74nY/edit?usp=sharing" class="project-btn">Slides</a>
+                    </div>
+                    </div>
                   </td>
                 </tr>
 
@@ -291,7 +367,7 @@
                   <td style="padding:0px">
                     <br>
                     <p style="text-align:right;font-size:extra-small;">
-                      Last updated: February 1, 2026
+                      Last updated: February 6, 2026
                       <br>
                       Website template from <a href="https://jonbarron.info/">Jon Barron</a>
                     </p>
