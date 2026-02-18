@@ -206,7 +206,7 @@
                     </div>
                     
                     <div class="project-content">
-                      <span class="papertitle">Architectural Bottlenecks in Vision Transformers for Fine-Grained Spatial Discrimination</span>
+                      <span class="papertitle">Tokenization Density vs. Scale: Dissecting Self-Supervised Learning Under Resource Constraints</span>
                       <div class="project-keywords">Vision Transformers, Spatial Tokenization, Self-Supervised Learning, Fine-Grained Recognition</div>
                       <p>
                         Trained self-supervised DiNOv1 models from scratch on low-resolution images (96×96 pixels) to investigate representation learning under severe resource constraints. Identified <strong>spatial tokenization density as the primary architectural bottleneck</strong>—switching from 16×16 patches (36 tokens/image) to 8×8 patches (144 tokens/image) improved fine-grained classification accuracy by 6 percentage points, outweighing gains from model depth or dataset scale. Demonstrated that <strong>strategically curated domain-aligned unlabeled data</strong> (74K task-relevant samples) provides superlinear returns compared to 10× larger generic datasets under compute constraints. Results reveal that feature tokenization granularity determines the discriminative capacity ceiling for constrained-resolution inputs, with implications for efficient vision encoders in robotics where spatial resolution and data efficiency are critical.
