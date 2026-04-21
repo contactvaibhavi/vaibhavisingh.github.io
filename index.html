@@ -16,19 +16,22 @@
     <link rel="icon" type="image/png" href="assets/profile.png">
     <meta name="author" content="Vaibhavi Singh">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="Graduate student in Computer Science at NYU Courant, specializing in multi-agent reinforcement learning, reasoning and algorithmic game theory. I study how we can build better reasoning and alignment in language models.">
-
+    <meta name="description" content="Graduate student in Computer Science at NYU Courant, specializing in spatial reasoning and planning in foundation models.
+                                      I aim to build better learning and representation systems that generalize broader and faster.">
 
 
     <meta property="og:type" content="website">
 <meta property="og:url" content="https://www.vaibhavisingh.com/">
 <meta property="og:title" content="Vaibhavi Singh">
-<meta name="og:description" content="Graduate student in Computer Science at NYU Courant, specializing in multi-agent reinforcement learning, reasoning and algorithmic game theory. I study how we can build better reasoning and alignment in language models.">
+<meta property="og:description" content="Graduate student in Computer Science at NYU Courant, specializing in spatial reasoning and planning 
+                                         in foundation models. I aim to build better learning and representation systems that generalize broader and faster.">
 <meta property="og:image" content="https://www.vaibhavisingh.com/assets/profile.png">
 
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:title" content="Vaibhavi Singh">
-<meta name="twitter:description" content="Graduate student in Computer Science at NYU Courant, specializing in multi-agent reinforcement learning, reasoning and algorithmic game theory. I study how we can build better reasoning and alignment in language models.">
+<meta name="twitter:description" content="Graduate student in Computer Science at NYU Courant, specializing in spatial reasoning and planning in 
+                                          foundation models. I aim to build better learning and representation systems that generalize broader and faster.>
+
 <meta name="twitter:image" content="https://www.vaibhavisingh.com/assets/profile.png">
 
     <style>
@@ -138,11 +141,12 @@
                       Vaibhavi Singh
                     </p>
                     <p>
-                      I am a graduate student in Computer Science at <a href="https://cs.nyu.edu/">NYU Courant</a>, specializing in <strong>multi-agent reinforcement learning</strong> and <strong>algorithmic game theory</strong>. I study reasoning and problem-solving abilities of language models.
+                      I am a graduate student in <a href="https://cs.nyu.edu/"> Computer Science</a> at <a href="https://cims.nyu.edu/">NYU Courant</a>, specializing in <strong>spatial reasoning</strong> and <strong>planning in vision-language models</strong>. 
+                                                                                                                                        I aim to build better learning and representation systems that generalize broader and faster.
                     </p>
                     
                     <p>
-                      Prior to NYU, I engineered large-scale software systems at <a href="https://www.adobe.com/">Adobe</a> and <a href="https://www.salesforce.com/">Salesforce</a>, building the core libraries that power Creative Cloud and Einstein AI for millions of users. Most recently, I developed production NLP systems and clinical risk prediction models in healthcare.
+                      Prior to NYU, I built spatial rendering and imaging systems at <a href="https://www.adobe.com" target="_blank">Adobe</a>, powering Photoshop, Substance 3D, and Creative Cloud — before moving through <a href="https://www.salesforce.com" target="_blank">Salesforce</a> and a healthcare AI startup focused on learning from noisy temporal data in clinical applications.
                     </p>
                     <p style="text-align:center">
                       <a href="mailto:contactvaibhavisingh@gmail.com">Email</a> &nbsp;/&nbsp;
@@ -185,15 +189,18 @@
                      </div>
 
                      <div class="project-content">
-                       <span class="papertitle">Understanding Reasoning Failures to Improve Problem-Solving in VLMs</span>
-                       <div class="project-keywords">Chain-of-Thought Reasoning, Evaluation Frameworks, Vision-Language Models</div>
+                       <span class="papertitle">GVR-Bench: Probing Visual Reasoning Abilities in Vision-Language Models</span>
+                       <div class="project-keywords">Geometric Reasoning, Visual Grounding, Spatial Transformations</div>
                       
                        <p>
-                          Developed a systematic evaluation framework to identify why vision-language models fail at multi-step reasoning tasks. Created a failure taxonomy distinguishing perception errors from logical decomposition failures, revealing architectural bottlenecks that limit problem-solving capabilities.
+                          Developed a systematic evaluation framework to probe the <strong>visual reasoning capabilities</strong> of Vision-Language Models in deterministic settings. 
+                         By engineering a suite of <strong>programmatic geometric tasks</strong> 
+                         (e.g., precise rotations, spatial translations), demonstrated a critical 
+                         dissociation between perceptual fidelity and logical execution. SOTA models achieved only <strong>16.8% pixel-level accuracy</strong> despite maintaining high perceptual similarity. Our analysis established a formal <strong>error taxonomy</strong>—classifying failures into <strong>geometric imprecision, grounding errors, and hallucinations</strong>—providing empirical evidence that current end-to-end architectures require <strong>hybrid spatial computation modules</strong> for precise robotic manipulation.
                        </p>
-                        <a href="https://drive.google.com/file/d/1M9bluklcgbuiLu3-IjFiSJYNhyiJgYkx/view?usp=sharing" class="project-btn">Paper</a>
-                       <a href="https://github.com/contactvaibhavi/Cogni-Reasoning" class="project-btn">Code</a>
-                       <a href="https://docs.google.com/presentation/d/160EzrEZKZzGXa5641VY2UyGdO_MaN-6YpDFKl9feV0Y/edit?usp=sharing" class="project-btn">Slides</a>
+                        <a href="https://drive.google.com/file/d/1SaSQ542tDBfLy_nUmNmBHhZ6T-jmCP1A/view?usp=drive_link" class="project-btn">Paper</a>
+                        <a href="https://github.com/contactvaibhavi/GVR-Bench" class="project-btn">Code</a>
+                        <a href="https://docs.google.com/presentation/d/160EzrEZKZzGXa5641VY2UyGdO_MaN-6YpDFKl9feV0Y/edit?usp=sharing" class="project-btn">Slides</a>
                      </div>
                     </div>
                   </td>
@@ -208,10 +215,10 @@
                     </div>
                     
                     <div class="project-content">
-                      <span class="papertitle">Information Density vs. Model Scale: Tradeoffs for Downstream Reasoning</span>
-                      <div class="project-keywords">Scaling Laws, Data-Efficient Learning, Foundation Models, Tokenization</div>
+                      <span class="papertitle">Tokenization Density vs. Scale: Dissecting Self-Supervised Learning Under Resource Constraints</span>
+                      <div class="project-keywords">Vision Transformers, Spatial Tokenization, Self-Supervised Learning, Fine-Grained Recognition</div>
                       <p>
-                        Investigated architectural bottlenecks in representation learning that limit performance on complex reasoning tasks. Through systematic ablation, identified tokenization granularity as the primary constraint—4× finer encoding (144 vs 36 tokens/image) outweighed model depth and dataset scale for fine-grained problem-solving.
+                        Trained self-supervised DiNOv1 models from scratch on low-resolution images (96×96 pixels) to investigate representation learning under severe resource constraints. Identified <strong>spatial tokenization density as the primary architectural bottleneck</strong>—switching from 16×16 patches (36 tokens/image) to 8×8 patches (144 tokens/image) improved fine-grained classification accuracy by 6 percentage points, outweighing gains from model depth or dataset scale. Demonstrated that <strong>strategically curated domain-aligned unlabeled data</strong> (74K task-relevant samples) provides superlinear returns compared to 10× larger generic datasets under compute constraints. Results reveal that feature tokenization granularity determines the discriminative capacity ceiling for constrained-resolution inputs, with implications for efficient vision encoders in robotics where spatial resolution and data efficiency are critical.
                       </p>
                      
                       <a href="https://docs.google.com/presentation/d/1AQx95qqQVj47TpJELMS9RmI_IXx-IZ6bmerbZid74nY/edit?usp=sharing" class="project-btn">Paper</a>
@@ -241,9 +248,8 @@
                 <tr>
                   <td style="padding:16px;width:100%;vertical-align:middle">
                     <b>ICLR 2026</b> &mdash; Reviewer - Latent & Implicit Thinking Workshop
-                    <br>
+                    <b>CVPR 2026</b> &mdash; Reviewer - SynData4CV Workshop
                     <b>NeurIPS 2025</b> &mdash; Ethics Reviewer (Datasets &amp; Benchmarks), Technical Reviewer (UniReps, ML4PS)
-                    <br>
                     <b>ACL ARR 2026</b> &mdash; Reviewer
                   </td>
                 </tr>
@@ -298,7 +304,7 @@
                     <br>
                     <em>2021 – 2023</em>
                     <p>
-                      Optimized heterogeneous compute (CPU/GPU) architectures for on-device neural inference, reducing latency for 20M+ users. Extended core C++ text-processing engines to handle complex document analysis and font parsing, ensuring high-throughput performance under strict SLAs.
+                      Optimized heterogeneous compute (CPU/GPU) architectures for Photoshop and Creative Cloud applications, reducing latency for 20M+ users. Extended core C++ image-processing engines to handle complex image analysis and color rendering, ensuring high-throughput performance under strict SLAs.
                     </p>
                   </td>
                 </tr>
@@ -311,7 +317,7 @@
                     <br>
                     <em>2019 – 2021</em>
                     <p>
-                      Scaled distributed data serving infrastructure, optimizing high-throughput request handling for 10M+ daily users. Reduced compute overhead by 12% through system-level performance profiling.
+                      Scaled distributed microservices for Adobe Cloud Platform, optimizing high-throughput request handling for 10M+ daily users. Reduced compute overhead by 12% through system-level performance profiling.
                     </p>
                   </td>
                 </tr>
@@ -335,7 +341,7 @@
 
                 <tr>
                   <td style="padding:16px;width:100%;vertical-align:middle">
-                    <strong>M.S. in Computer Science (Machine Learning)</strong>
+                    <strong>M.S. Computer Science (Machine Learning)</strong>
                     <br>
                     New York University, Courant Institute
                     <br>
@@ -343,7 +349,7 @@
                     <br>
                     GPA: 3.89/4.00
                     <p>
-                      Research focus: problem-solving and reasoning in language models
+                      Research focus: spatial reasoning and planning in foundation models
                     </p>
                     <p>
                       Coursework: Deep Learning (Yann LeCun), Computer Vision (Saining Xie)
@@ -381,7 +387,7 @@
                   <td style="padding:0px">
                     <br>
                     <p style="text-align:right;font-size:extra-small;">
-                      Last updated: April 11, 2026
+                      Last updated: April 20, 2026
                       <br>
                       Website template from <a href="https://jonbarron.info/">Jon Barron</a>
                     </p>
